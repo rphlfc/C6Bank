@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64BFD48125A6595500F52658 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64BFD48025A6595500F52658 /* README.md */; };
 		64E9C19A259E18E6005C9371 /* C6BankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9C199259E18E6005C9371 /* C6BankApp.swift */; };
 		64E9C19C259E18E6005C9371 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9C19B259E18E6005C9371 /* ContentView.swift */; };
 		64E9C19E259E18EA005C9371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E9C19D259E18EA005C9371 /* Assets.xcassets */; };
 		64E9C1A1259E18EA005C9371 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E9C1A0259E18EA005C9371 /* Preview Assets.xcassets */; };
+		64E9C1B125A4E486005C9371 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9C1B025A4E485005C9371 /* HomeView.swift */; };
+		64E9C1B625A4E4C9005C9371 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9C1B525A4E4C9005C9371 /* MenuItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64BFD48025A6595500F52658 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		64E9C196259E18E6005C9371 /* C6Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C6Bank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E9C199259E18E6005C9371 /* C6BankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C6BankApp.swift; sourceTree = "<group>"; };
 		64E9C19B259E18E6005C9371 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64E9C19D259E18EA005C9371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64E9C1A0259E18EA005C9371 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64E9C1A2259E18EA005C9371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E9C1B025A4E485005C9371 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		64E9C1B525A4E4C9005C9371 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 		64E9C18D259E18E6005C9371 = {
 			isa = PBXGroup;
 			children = (
+				64BFD48025A6595500F52658 /* README.md */,
 				64E9C198259E18E6005C9371 /* C6Bank */,
 				64E9C197259E18E6005C9371 /* Products */,
 			);
@@ -52,6 +59,8 @@
 		64E9C198259E18E6005C9371 /* C6Bank */ = {
 			isa = PBXGroup;
 			children = (
+				64E9C1B425A4E4BD005C9371 /* Model */,
+				64E9C1AF25A4E470005C9371 /* View */,
 				64E9C199259E18E6005C9371 /* C6BankApp.swift */,
 				64E9C19B259E18E6005C9371 /* ContentView.swift */,
 				64E9C19D259E18EA005C9371 /* Assets.xcassets */,
@@ -67,6 +76,22 @@
 				64E9C1A0259E18EA005C9371 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64E9C1AF25A4E470005C9371 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64E9C1B025A4E485005C9371 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64E9C1B425A4E4BD005C9371 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64E9C1B525A4E4C9005C9371 /* MenuItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64BFD48125A6595500F52658 /* README.md in Resources */,
 				64E9C1A1259E18EA005C9371 /* Preview Assets.xcassets in Resources */,
 				64E9C19E259E18EA005C9371 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E9C1B125A4E486005C9371 /* HomeView.swift in Sources */,
+				64E9C1B625A4E4C9005C9371 /* MenuItem.swift in Sources */,
 				64E9C19C259E18E6005C9371 /* ContentView.swift in Sources */,
 				64E9C19A259E18E6005C9371 /* C6BankApp.swift in Sources */,
 			);
